@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="e6af9b03-1a81-4d7c-9cc0-192e0d86df35" xsi:noNamespaceSchemaLocation="https://www.jetbrains.com/teamcity/schemas/2021.1/project-config.xsd">
+  <name>Buildspace Projects</name>
+  <parameters />
+  <project-extensions>
+    <extension id="PROJECT_EXT_4" type="IssueTracker">
+      <parameters>
+        <param name="authType" value="accesstoken" />
+        <param name="autoSync" value="true" />
+        <param name="host" value="https://quantumblockchainai.jetbrains.space" />
+        <param name="idPrefix" value="Crystal_Alchemist" />
+        <param name="name" value="Crystal_Alchemist" />
+        <param name="secure:accessToken" value="credentialsJSON:f6c727c2-c228-486a-91c6-6656e8537bd9" />
+        <param name="secure:password" value="" />
+        <param name="type" value="youtrack" />
+        <param name="username" value="" />
+      </parameters>
+    </extension>
+    <extension id="PROJECT_EXT_5" type="versionedSettings">
+      <parameters>
+        <param name="buildSettings" value="ALWAYS_USE_CURRENT" />
+        <param name="credentialsStorageType" value="credentialsJSON" />
+        <param name="enabled" value="true" />
+        <param name="rootId" value="BuildspaceProjects_HttpsGithubComQ1blueBuildspaceProjectsRefsHeadsMain" />
+        <param name="showChanges" value="false" />
+      </parameters>
+    </extension>
+  </project-extensions>
+  <cleanup />
+</project>
+
